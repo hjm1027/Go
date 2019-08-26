@@ -1,0 +1,7 @@
+proto生成pb.go :
+protoc --go_out=plugins=grpc:. data.proto
+ vim跳到文件头和文末结尾
+gg           ： 跳转到文件头
+Shift+g   ： 跳转到文件末尾
+插入html: `xxxxxx`
+u 撤销
